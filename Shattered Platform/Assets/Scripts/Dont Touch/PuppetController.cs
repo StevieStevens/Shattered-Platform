@@ -112,7 +112,6 @@ public class PuppetController : MonoBehaviour {
 		switch (_SSD) {
 		case _Tangled:
 			if (_col.tag == "Left Wall" && _SSD == _Tangled) {
-				Debug.Log ("fdsa");
 				_SSD = _Bouncing;
 				_rb.velocity = new Vector2 (4.5f, 3.5f);
 			}
